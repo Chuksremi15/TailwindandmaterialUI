@@ -4,6 +4,7 @@ import Create from "./pages/Create";
 import { createTheme, ThemeProvider } from "@mui/material/styles";
 import { blue, purple, yellow } from "@mui/material/colors";
 import { Layout } from "./components/Layout";
+import Product from "./pages/Product";
 
 const theme = createTheme({
   palette: {
@@ -30,6 +31,9 @@ function App() {
             </Route>
             <Route path="/create">
               <Create />
+            </Route>
+            <Route path="/product">
+              <Product />
             </Route>
           </Switch>
         </Layout>

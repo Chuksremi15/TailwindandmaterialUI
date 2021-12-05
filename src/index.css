@@ -3,8 +3,8 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@layer components {
+  .btn {
+    @apply focus:outline-none focus:ring focus:ring-offset-2 cursor-pointer sm:hover:bg-green-400  hover:bg-indigo-400 hover:-translate-y-0.5  transform transition px-3 py-3 rounded-lg shadow-lg inline-block bg-brand text-white uppercase tracking-wide font-semibold text-sm;
+  }
 }

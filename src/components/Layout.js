@@ -14,7 +14,7 @@ const page = {
 export const Layout = ({ children }) => {
   return (
     <div>
-      <Drawer
+      {/* <Drawer
         style={{ width: 400 }}
         variant="permanent"
         anchor="left"
@@ -27,7 +27,7 @@ export const Layout = ({ children }) => {
         <div>
           <Typography variant="h5">Ninja Notes</Typography>
         </div>
-      </Drawer>
+      </Drawer> */}
       <div style={page}>{children}</div>
     </div>
   );
