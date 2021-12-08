@@ -9,7 +9,7 @@ const Product = () => {
           <div className="xl:max-w-xl  ">
             <img className="h-10" src="/favicon.ico"></img>
             <img
-              className="mt-6  sm:mt-8 sm:h-64 sm:w-full sm:object-cover object-center rounded-lg shadow-xl lg:hidden"
+              className="mt-6 sm:mt-8 sm:h-64 sm:w-full sm:object-cover object-center rounded-lg shadow-xl lg:hidden"
               src="/img/man.jpg"
             ></img>
             <h1 className="mt-6 sm:mt-8 font-headline  text-2xl  lg:text-3xl  xl:text-4xl font-bold text-gray-900">
